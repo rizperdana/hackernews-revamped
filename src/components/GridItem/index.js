@@ -10,7 +10,7 @@ const GridItem = ({ url, title, id }) => {
   const link = getArticleLink({ url, id });
 
   return (
-    <a href={link} target="_blank" rel="nofollow noreferrer nofollow">
+    <a href={link} target="_blank" rel="noopener noreferrer nofollow">
       <Item>
         <Card>
           <Image src="https://miro.medium.com/max/1176/1*F9RzuXseG1VrTjFJd403gw.png" />
