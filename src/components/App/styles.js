@@ -49,13 +49,3 @@ export const SocialLink = styled.a`
     margin-right: 16px;
   }
 `;
-
-export const GithubLink = styled.a`
-  color: ${({ theme }) => theme.textSecondary};
-  font-size: 14px;
-  text-decoration: underline;
-
-  &:visited {
-    color: ${({ theme }) => theme.textSecondary};
-  }
-`;

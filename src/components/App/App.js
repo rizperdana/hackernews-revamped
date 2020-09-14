@@ -9,7 +9,7 @@ import Loader from 'components/Loader';
 import { layouts, themes } from 'store/app/utils';
 import { colorsDark, colorsLight } from 'styles/palette';
 
-import { Wrapper, Title, TitleWrapper, GithubLink, SocialLink } from './styles';
+import { Wrapper, Title, TitleWrapper, SocialLink } from './styles';
 
 class App extends Component {
   static defaultProps = {
